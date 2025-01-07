@@ -3,7 +3,7 @@ total_bill = 1300
 
 bill_per_person = total_bill / total_people
 
-print (f"Each people have to pay Rs {bill_per_person}")
+print (f"Each people have to pay Rs {bill_per_person:.2f}")
 
 
 ## create program that calculate simple interest 
