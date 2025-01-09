@@ -18,8 +18,8 @@ total_income = jan+feb+march+april+may+june+july+aug+sept+oct+nov+december
 average_income = total_income / 12
   
   
-print(f"Hence total income is Rs {total_income}")
-print(f"Hence average income  is Rs {average_income}")
+print(f"Hence total income is Rs {total_income:.2f}")
+print(f"Hence average income  is Rs {average_income:.2f}")
 
 
 
