@@ -11,6 +11,7 @@ def display_menu():
     menu_table = PrettyTable()
     menu_table.field_names = ["Option", "Description"]
     menu_table.align["Description"] = "l"  # Left align the descriptions
+    menu_table.add_row(["0", "Exit"])
 
     # Add menu options
     menu_table.add_row(["1", "Add Product"])
